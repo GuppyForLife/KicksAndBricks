@@ -43,6 +43,8 @@ main {
     display: flex;
     position: relative;
     text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .hero-img img {
@@ -106,20 +108,29 @@ main {
 
 @media screen and (max-width: 600px) {
 
+    .navbar{
+        margin: 2rem;
+        flex-direction: column;
+    }
+
     .navbar h1 {
         font-size: 25px;
         color: #feffff;
     }
 
     .navbar-list li {
-        display: inline;
         padding: .5rem;
         font-size: 16px;
+        background-color: red;
+    }
+
+    .navbar-list{
     }
 
     .hero-img-txt {
         position: absolute;
         top: 15%;
+        bottom: 15%;
         right: 20%;
         left: 20%;
         background-color: #2B7A78;
@@ -129,8 +140,43 @@ main {
     .hero-img-txt h1 {
         color: white;
         opacity: none;
-        padding: 2rem;
-        font-size: 16px;
+        padding: .5rem;
+        font-size: 17px;
     }
 
+    .sneaker-row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        border-radius: 2rem;
+        align-items: center;
+    }
+    
+    .sneaker-row img {
+        margin: 2rem;
+        width: 5rem;
+        height: 20rem;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    
+    .sneaker-row div {
+        height: 45rem;
+        border-radius: 2rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sneaker-row h2 {
+        font-size: 32px;
+        color: #FEFFFF;
+    }
+    .sneaker-row p {
+        text-align: center;
+        color: #17252a;
+        border-radius: 2rem;
+        font-size: 20px;
+    }
 }

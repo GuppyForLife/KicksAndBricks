@@ -52,7 +52,7 @@ footer {
 .navbar-list li a:hover {
     color: white;
 }
-.activePage{
+#activePage {
     color: white;
 }
 
@@ -158,7 +158,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #3AAFA9;
+    background: #17252a;
     clip-path: circle(150px at 80% 20%);
     transition: 0.5s ease-in-out;
 }

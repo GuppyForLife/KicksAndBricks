@@ -252,6 +252,10 @@ main {
     transition-delay: .7s;
 } 
 
+#sneakerPicture{
+    transform: translate(-50%, -50%) rotate(20deg);
+}
+
 @media screen and (max-width: 600px) {
     .navbar{
         flex-direction: column;

@@ -187,7 +187,6 @@ main {
 .product-row .card:hover .imgBx {
     top: 0%;
     transform: translateY(-25%);
-    /* bug  */
 }
 .product-row .card .imgBx img {
     position: absolute;
